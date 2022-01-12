@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!-- Benjamin Lefebvre 301234587 - Final Project -->
+<html lang="en">
+
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <title>Contact me - Benjamin Lefebvre</title>
+    
+    <!-- Style sheets -->
+    <link media="only screen and (min-width:830px)" href="styles/style.css" rel="stylesheet" type="text/css">
+    <link media="only screen and (max-width:829px)" href="styles/mobileStyle.css" rel="stylesheet" type="text/css">
+    <link media="print" href="styles/printerStyle.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <img id="bubble" src="images/redThemeCircle.png">
+    <div id="allPage">
+        <nav>
+            <a href="index.html"><img class="logo" src="images/Logo.svg"></a>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul>
+                <li id="removeMobile"><a href="index.html"><img id="logo" src="images/Logo.svg"></a></li>
+                <li><a href="home.html"><img src="images/Home.svg"></a></li>
+                <li><a href="portfolio.html"><img src="images/Portfolio.svg"></a></li>
+                <li><a href="about.html"><img src="images/About me.svg"></a></li>
+                <li><a href="blog.html"><img src="images/Blog.svg"></a></li>
+                <li id="contactBtm"><a href="contact.html"><img src="images/Contact me.svg"></a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <div id="titleSection">
+                <span>
+                    <h1 style="color:#EB4960">Hit me up!</h1>
+                    <h2>For job offer or more!</h2>
+                </span>
+                <a href="#core"><img id="scroll" src="images/arrow.png" alt="Scroll"></a>
+            </div>
+
+            <div id="core">
+                <h2 style="color:#EB4960">Please fill the form</h2>
+                <h3>I will get back to you in 24 to 48 hours!</h3>
+
+                <form action="mailto:blefebv1@mycentennialcollege.com">
+                    <label for="cName">Full Name*</label><br>
+                    <input type="text" id="cName" name="cName" placeholder="e.g. John Snow" tabindex="1"
+                        required="required">
+                    <br><label for="cEmail">Email*</label><br>
+                    <input type="email" id="cEmail" name="cEmail" placeholder="e.g. johnsnow@domain.com" tabindex="3"
+                        required="required">
+                        <br><label for="cSubject">Subject*</label><br>
+                    <input type="text" id="cSubject" name="cSubject" placeholder="e.g. Job Offert" tabindex="5"
+                        required="required">
+                        <br><label for="cMessage">Message*</label><br>
+                    <textarea id="cMessage" name="cMessage" placeholder="e.g. I am reaching you for..." rows="8"
+                        tabindex="7" required="required"></textarea>
+                        <br><input type="submit" id="submit" name="submit" value="Send">
+                    <input type="reset" id="reset" name="reset" value="Clear">
+                </form>
+            </div>
+        </main>
+
+        
+    </div>
+    <footer>
+        <p>&copy; &nbsp; Copyright - Benjamin Lefebvre 2021</p>
+    </footer>
+</body>
+
+</html>

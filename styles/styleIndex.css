@@ -1,0 +1,179 @@
+body {
+    background-color: #2A363B;
+}
+
+#top {
+    position: fixed;
+    width: 200px;
+    top: 0%;
+    left: 0%;
+    animation-name: fadeAppearTop;
+    animation-duration: .7s;
+}
+
+#card {
+    background-color: #99B898;
+    position: fixed;
+    border-radius: 25px;
+    top: 50%;
+    left: 50%;
+    margin-top: -175px;
+    margin-left: -325px;
+    width: 650px;
+    height: 350px;
+    animation-duration: 1s;
+    animation-name: fadeAppearCard;
+    animation-delay: .4s;
+    animation-fill-mode: both;
+}
+
+#btm {
+    position: fixed;
+    width: 260px;
+    top: 100%;
+    left: 100%;
+    margin-top: -380px;
+    margin-left: -220px;
+    animation-name: fadeAppearBtm;
+    animation-duration: .7s;
+}
+
+@keyframes fadeAppearTop {
+    from {
+        width: 0px;
+    }
+    to {
+        width: 200px;
+    }
+}
+
+@keyframes fadeAppearBtm {
+    from {
+        width: 0;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    to {
+        margin-top: -380px;
+        margin-left: -220px;
+        width: 260px;
+    }
+}
+
+@keyframes fadeAppearCard {
+    from {
+        opacity: 0;
+        transform: translate(0, -30px);}
+    to {
+        opacity: 1;
+        transform: translate(0, 0);}
+}
+
+.website {
+    position: fixed;
+    margin-top: 60px;
+    margin-left: 25px;
+    width: 600px;
+}
+
+.website:hover {
+    opacity: 0;
+}
+
+.websiteHov {
+    position: fixed;
+    margin-top: 60px;
+    margin-left: 25px;
+    width: 600px;
+}
+
+.insta {
+    position: fixed;
+    margin-top: 200px;
+    margin-left: 95px;
+    width: 75px;
+}
+
+.insta:hover {
+    opacity: 0;
+}
+
+.instaHov {
+    position: fixed;
+    margin-top: 200px;
+    margin-left: 95px;
+    width: 75px;
+}
+
+.youtube {
+    position: fixed;
+    margin-top: 200px;
+    margin-left: 192px;
+    width: 75px;
+}
+
+.youtube:hover {
+    opacity: 0;
+}
+
+.youtubeHov {
+    position: fixed;
+    margin-top: 200px;
+    margin-left: 192px;
+    width: 75px;
+}
+
+.facebook {
+    position: fixed;
+    margin-top: 200px;
+    margin-left: 287.5px;
+    width: 75px;
+}
+
+.facebook:hover {
+    opacity: 0;
+}
+
+.facebookHov {
+    position: fixed;
+    margin-top: 200px;
+    margin-left: 287.5px;
+    width: 75px;
+}
+
+.twitter {
+    position: fixed;
+    margin-top: 200px;
+    margin-left: 383px;
+    width: 75px;
+}
+
+.twitter:hover {
+    opacity: 0;
+}
+
+.twitterHov {
+    position: fixed;
+    margin-top: 200px;
+    margin-left: 383px;
+    width: 75px;
+}
+
+
+.linked {
+    position: fixed;
+    margin-left: 480px;
+    margin-top: 200px;
+    width: 75px;
+}
+
+.linked:hover {
+    opacity: 0;
+}
+
+.linkedHov {
+    position: fixed;
+    margin-top: 200px;
+    margin-left: 480px;
+    width: 75px;
+}
